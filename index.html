@@ -1,17 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ambili Baby | Data Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #024dbc;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    nav {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #024dbc;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .project {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .project h3 {
+      margin-top: 0;
+      color: #024dbc;
+    }
+    footer {
+      background: #024dbc;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hi, I'm Ambili Baby</h1>
-    <p>Data Analyst | Data Scientist | BI Developer</p>
-    
+
+  <!-- Header -->
+  <header>
+    <h1>Ambili Baby</h1>
+    <p>Data Analyst | BI Developer | Aspiring Data Scientist</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Ambili 👋 I have experience in SQL, Power BI, and Data Analytics, and I’m expanding my skills into 
+      Data Science and Machine Learning. This portfolio showcases my projects across multiple domains including 
+      finance, HR, healthcare, and marketing.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
     <h2>Projects</h2>
-    <ul>
-        <li><a href="https://github.com/ambilibaby/portfolio/tree/main/Loan%20approval%20Prediction">Loan Approval Prediction</a></li>
-        <li><a href="https://github.com/ambilibaby/portfolio/tree/main/HR_attrition"> HR Attrition Analysis</a></li>
-        <li><a href="https://github.com/ambilibaby/portfolio/tree/main/Marketting_campaign">Marketing Campaign Analysis</a></li>
-    </ul>
+
+    <div class="project">
+      <h3>Loan Approval Prediction (Finance)</h3>
+      <p>Machine learning model to predict loan approvals using Python and scikit-learn.</p>
+      <a href="https://github.com/ambilibaby/portfolio/tree/main/project_loan_approval" target="_blank">View Project →</a>
+    </div>
+
+    <div class="project">
+      <h3>HR Attrition Dashboard (HR Analytics)</h3>
+      <p>Power BI dashboard analyzing employee attrition trends and insights.</p>
+      <a href="https://github.com/ambilibaby/portfolio/tree/main/project_hr_attrition" target="_blank">View Project →</a>
+    </div>
+
+    <div class="project">
+      <h3>Marketing Campaign Analysis (Marketing)</h3>
+      <p>Analyzed marketing campaign data to evaluate ROI and conversion trends.</p>
+      <a href="https://github.com/ambilibaby/portfolio/tree/main/project_marketing_campaign" target="_blank">View Project →</a>
+    </div>
+
+    <div class="project">
+      <h3>COVID-19 Trend Insights (Healthcare)</h3>
+      <p>Python + SQL analysis on COVID-19 dataset with visualization dashboards.</p>
+      <a href="https://github.com/ambilibaby/portfolio/tree/main/project_covid19_insights" target="_blank">View Project →</a>
+    </div>
+
+    <div class="project">
+      <h3>Retail Sales Forecasting (Retail)</h3>
+      <p>Time-series forecasting model to predict sales using Python and Excel.</p>
+      <a href="https://github.com/ambilibaby/portfolio/tree/main/project_retail_sales" target="_blank">View Project →</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      📧 Email: <a href="mailto:your-email@example.com">your-email@example.com</a><br>
+      💼 LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">linkedin.com/in/your-linkedin</a><br>
+      🐙 GitHub: <a href="https://github.com/ambilibaby" target="_blank">github.com/ambilibaby</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Ambili Baby | Portfolio Website</p>
+  </footer>
+
 </body>
 </html>
